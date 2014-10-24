@@ -67,10 +67,10 @@
       <div class="outer">
         <section id="main">
   
-    <article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+    <article id="post-20141024" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/2014/10/22/hello-world/" class="article-date">
-  <time datetime="2014-10-22T02:49:18.000Z" itemprop="datePublished">10月 22 2014</time>
+    <a href="/2014/10/24/20141024/" class="article-date">
+  <time datetime="2014-10-23T16:51:57.000Z" itemprop="datePublished">10月 24 2014</time>
 </a>
     
   </div>
@@ -81,7 +81,7 @@
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2014/10/22/hello-world/">Hello World</a>
+      <a class="article-title" href="/2014/10/24/20141024/">20141024</a>
     </h1>
   
 
@@ -89,31 +89,62 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">trobuleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2>
-<h3 id="Create_a_new_post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+        <p>测试<br>测试<br>测试<br>测试</p>
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2014/10/22/hello-world/" data-id="zlwp6b3y12h64znd" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2014/10/24/20141024/" data-id="ma2v5xyxmas1x2rs" class="article-share-link">Share</a>
       
       
+    </footer>
+  </div>
+  
+</article>
+
+
+  
+    <article id="post-my-frist-post" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2014/10/24/my-frist-post/" class="article-date">
+  <time datetime="2014-10-23T16:17:55.000Z" itemprop="datePublished">10月 24 2014</time>
+</a>
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2014/10/24/my-frist-post/">centos直接yum安装nginx</a>
+    </h1>
+  
+
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <p>Ubuntu下安装nginx，直接apt-get install nginx就行了，很方便。</p>
+<p>但是今天装了CentOS6.2，直接yum install nginx不行，要先处理下源，下面是安装完整流程，也十分简单：</p>
+<h2 id="1、CentOS_6，先执行：">1、CentOS 6，先执行：</h2>
+<p>rpm -ivh <a href="http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-" target="_blank" rel="external">http://nginx.org/packages/centos/6/noarch/RPMS/nginx-release-</a><br>centos-6-0.el6.ngx.noarch.rpm</p>
+<h2 id="2，查看yum的nginx信息">2，查看yum的nginx信息</h2>
+<p>yum info nginx</p>
+<h2 id="3，安装并启动nignx">3，安装并启动nignx</h2>
+<p>[root@server ~]# yun install nignx<br>[root@server ~]# service nginx start<br>Starting nginx:                                            [  OK  ]</p>
+<h2 id="4，然后进入浏览器,如果看到">4，然后进入浏览器,如果看到</h2>
+<p>Welcome to nginx!<br>If you see this page, the nginx web server is successfully installed and working. Further configuration is required.<br>For online documentation and support please refer to nginx.org.<br>Commercial support is available at nginx.com.<br>Thank you for using nginx.<br> 恭喜你，你成功了！</p>
+
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://yoursite.com/2014/10/24/my-frist-post/" data-id="13guahe8su6onblx" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/linux/">linux</a></li></ul>
+
     </footer>
   </div>
   
@@ -129,14 +160,28 @@
     
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tags</h3>
+    <div class="widget">
+      <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/linux/">linux</a><span class="tag-list-count">1</span></li></ul>
+    </div>
+  </div>
+
   
     
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <div class="widget tagcloud">
+      <a href="/tags/linux/" style="font-size: NaNpx;">linux</a>
+    </div>
+  </div>
+
   
     
   <div class="widget-wrap">
     <h3 class="widget-title">Archives</h3>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2014/10/">October 2014</a><span class="archive-list-count">2</span></li></ul>
     </div>
   </div>
 
@@ -148,7 +193,11 @@
       <ul>
         
           <li>
-            <a href="/2014/10/22/hello-world/">Hello World</a>
+            <a href="/2014/10/24/20141024/">20141024</a>
+          </li>
+        
+          <li>
+            <a href="/2014/10/24/my-frist-post/">centos直接yum安装nginx</a>
           </li>
         
       </ul>
